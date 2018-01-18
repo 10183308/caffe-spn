@@ -55,7 +55,7 @@ We develop the spn layer ext for pytorch [HERE](https://github.com/Liusifei/pyto
 
 ## Training
 
-The example of datalayer and trainig scripts are in [pylayers/vocspn_datalayer.py](https://github.com/Liusifei/caffe-spn/blob/master/pylayers/vocspn_datalayer.py) and [myscripts/train.py](https://github.com/Liusifei/caffe-spn/blob/master/myscripts/train.py). To train the spn segmentation refinement model, adding your dataset path to the datalayer (line 10 in [models/voc_rnn_vgg_v3.prototxt](https://github.com/Liusifei/caffe-spn/blob/master/models/voc_rnn_vgg_v3.prototxt)),then run:
+The example of datalayer and trainig scripts are in [pylayers/vocspn_datalayer.py](https://github.com/Liusifei/caffe-spn/blob/master/pylayers/vocspn_datalayer.py) and [myscripts/train.py](https://github.com/Liusifei/caffe-spn/blob/master/myscripts/train.py). To train the spn segmentation refinement model, adding your dataset path to the datalayer (line 10 in [models/voc_rnn_vgg_v3.prototxt](https://github.com/Liusifei/caffe-spn/blob/master/models/voc_rnn_vgg_v3.prototxt)), run:
 
 $ python myscripts/train.py
 
