@@ -11,20 +11,20 @@ Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses
 
 The codes for [Learning Affinity via Spatial Propagation Networks](https://papers.nips.cc/paper/6750-learning-affinity-via-spatial-propagation-networks.pdf) is based on [CAFFE](http://caffe.berkeleyvision.org/). To install, 
 
-$cd caffe-dev 
+`cd caffe-dev`
 
 and then follow the [Installation](http://caffe.berkeleyvision.org/installation.html) to install all neccesary dependencies, then 
 
-$make all -j
+`make all -j`
 
-$make pycaffe
+`make pycaffe`
 
 
 ## SPN layer and integration
 
 If you need to integrate the SPN layer into your own caffe, do the following steps and rebuild:
 
-1. copying "caffe-dev/src/caffe/layers/gaterecurrent2dnoind_layer.cpp", "caffe-dev/src/caffe/layers/gaterecurrent2dnoind_layer.cu" into "<your caffe root>/src/caffe/layers".
+1. copying "caffe-dev/src/caffe/layers/gaterecurrent2dnoind_layer.cpp", "caffe-dev/src/caffe/layers/gaterecurrent2dnoind_layer.cu" into "`<your caffe root>/src/caffe/layers`".
 
 2. copying "caffe-dev/include/caffe/layers/gaterecurrent2dnoind_layer.hpp" into "<your caffe root>/include/caffe/layers".
 
@@ -63,7 +63,7 @@ The example of datalayer and trainig scripts are in [pylayers/vocspn_datalayer.p
 
 3. run:
 	
-	python myscripts/train.py
+	`python myscripts/train.py`
 
 
 ## Testing
