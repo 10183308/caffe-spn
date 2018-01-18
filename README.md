@@ -63,7 +63,7 @@ The example of datalayer and trainig scripts are in [pylayers/vocspn_datalayer.p
 
 3. run:
 
-$ python myscripts/train.py
+	{$ python myscripts/train.py}
 
 
 ## Testing
