@@ -19,6 +19,7 @@ layer = 'prob'
 dataroot = '{}/VOC/pascal/VOCdevkit/VOC2012'.format(sys.argv[2])
 # prior_root = '/media/sifeil/NV_share/Results/davis_global_JC3/ResNetF_perobj_27000/'
 result_folder = '{}'.format(sys.argv[3])
+
 if len(sys.argv) > 4:
 	caffe.set_device[sys.argv[4]]
 else:
